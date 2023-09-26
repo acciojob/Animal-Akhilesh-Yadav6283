@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+body{
+	background:gray;
+}
+#photo-heading{
+	text-align:center;
+	color:white;
+	text-shadow: 2px 2px 5px black;
+}
+#animal-photos{
+    display:grid;
+	grid-template-columns:repeat(3,300px);
+	grid-template-rows: 100px repeat(3,250px);
+	border-radius:10px;
+	rows-gap:10px;
+	column-gap:20px;
+}
+.box-1{
+	grid-column:1/-1
+	
+}
+.box img{
+	border-radius:20px;
+}
